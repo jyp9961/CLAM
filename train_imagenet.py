@@ -59,8 +59,8 @@ Section("resolution", "resolution scheduling").params(
 )
 
 Section("data", "data related stuff").params(
-    train_dataset=Param(str, ".dat file to use for training", required=True, default="/bd_byta6000i0/users/yjiang/Imagenet/train.beton"),
-    val_dataset=Param(str, ".dat file to use for validation", required=True, default="/bd_byta6000i0/users/yjiang/Imagenet/val.beton"),
+    train_dataset=Param(str, ".dat file to use for training", required=True, default="train.beton"),
+    val_dataset=Param(str, ".dat file to use for validation", required=True, default="val.beton"),
     num_workers=Param(int, "The number of workers", required=True, default=32),
     in_memory=Param(int, "does the dataset fit in memory? (1/0)", required=True, default=1),
 )

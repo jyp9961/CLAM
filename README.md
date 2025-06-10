@@ -33,3 +33,18 @@ Train a classifier with CLAM on Imagenet with crop lower bound equal to 1. In th
 ```
 python train_imagenet.py --training.loss_type CLAM --training.crop_scale=100 --data.train_dataset train.beton --data.val_dataset test.beton
 ```
+
+## Citation
+
+If you use this repo in your research, please consider citing the paper as follows:
+```
+@misc{jiang2025understandingreducingclassdependenteffects,
+      title={Understanding and Reducing the Class-Dependent Effects of Data Augmentation with A Two-Player Game Approach}, 
+      author={Yunpeng Jiang and Paul Weng and Yutong Ban},
+      year={2025},
+      eprint={2407.03146},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY},
+      url={https://arxiv.org/abs/2407.03146}, 
+}
+```

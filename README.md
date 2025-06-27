@@ -40,7 +40,7 @@ If you use this repo in your research, please consider citing the paper as follo
 ```
 @misc{jiang2025understandingreducingclassdependenteffects,
       title={Understanding and Reducing the Class-Dependent Effects of Data Augmentation with A Two-Player Game Approach}, 
-      author={Yunpeng Jiang and Paul Weng and Yutong Ban},
+      author={Yunpeng Jiang and Yutong Ban and Paul Weng},
       year={2025},
       eprint={2407.03146},
       archivePrefix={arXiv},
